@@ -1,0 +1,15 @@
+{
+  "type": "stack",
+  "spacing": 5,
+  "children": [
+    { "type": "row", "spacing": 6, "children": [
+      { "type": "image", "symbol": "globe.europe.africa.fill", "tint": "blue" },
+      { "type": "text", "text": "{{language}}", "style": "caption" },
+      { "type": "spacer" },
+      { "type": "text", "text": "{{day}}", "style": "caption" }
+    ]},
+    { "type": "text", "text": "{{word}}", "style": "large" },
+    { "type": "text", "text": "{{meaning}}", "style": "body", "lines": 3 },
+    { "type": "button", "title": "Another", "symbol": "arrow.clockwise", "action": "next" }
+  ]
+}

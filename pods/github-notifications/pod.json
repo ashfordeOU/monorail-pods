@@ -1,0 +1,26 @@
+{
+  "format": 1,
+  "id": "org.ashforde.pod.github",
+  "name": "GitHub Notifications",
+  "version": "1.0.0",
+  "author": "Ashforde",
+  "description": "How many unread GitHub notifications you have, and the latest few. Needs a personal access token, kept in your Keychain.",
+  "icon": "icon.png",
+  "minMonorail": "1.9.8",
+  "entry": "main.js",
+  "layouts": { "default": "layout.json", "small": "layout-small.json" },
+  "permissions": {
+    "network": ["api.github.com"],
+    "places": ["island", "dashboard", "desktop", "docks", "panel"],
+    "refreshSeconds": 300,
+    "storageKB": 8,
+    "secrets": [
+      {
+        "key": "token",
+        "label": "GitHub token",
+        "host": "api.github.com",
+        "help": "A fine-grained or classic token with the notifications scope, from github.com/settings/tokens."
+      }
+    ]
+  }
+}

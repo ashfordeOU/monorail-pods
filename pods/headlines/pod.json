@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "id": "org.ashforde.pod.headlines",
+  "name": "Headlines",
+  "version": "1.0.0",
+  "author": "Ashforde",
+  "description": "The latest headlines from BBC News, refreshed every 15 minutes. Tap one to read it.",
+  "icon": "icon.png",
+  "minMonorail": "1.9.8",
+  "entry": "main.js",
+  "layouts": { "default": "layout.json", "small": "layout-small.json" },
+  "permissions": {
+    "network": ["feeds.bbci.co.uk"],
+    "places": ["island", "dashboard", "desktop", "docks", "panel"],
+    "refreshSeconds": 900,
+    "storageKB": 32
+  }
+}

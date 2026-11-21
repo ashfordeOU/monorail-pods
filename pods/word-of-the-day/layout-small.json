@@ -1,0 +1,8 @@
+{
+  "type": "stack",
+  "spacing": 2,
+  "children": [
+    { "type": "text", "text": "{{word}}", "style": "headline" },
+    { "type": "text", "text": "{{language}}", "style": "caption" }
+  ]
+}

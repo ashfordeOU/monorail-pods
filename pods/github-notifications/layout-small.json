@@ -1,0 +1,8 @@
+{
+  "type": "row",
+  "spacing": 6,
+  "children": [
+    { "type": "ring", "value": "$fraction", "label": "{{count}}", "size": 26, "tint": "purple" },
+    { "type": "text", "text": "{{summary}}", "style": "caption", "lines": 2 }
+  ]
+}

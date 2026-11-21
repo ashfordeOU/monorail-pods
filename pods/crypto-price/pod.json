@@ -1,0 +1,19 @@
+{
+  "format": 1,
+  "id": "org.ashforde.pod.crypto",
+  "name": "Crypto Price",
+  "version": "1.0.0",
+  "author": "Ashforde",
+  "description": "Bitcoin and Ether in US dollars with the day's change and a line of recent prices, from CoinGecko's public prices. No account needed.",
+  "icon": "icon.png",
+  "minMonorail": "1.9.8",
+  "entry": "main.js",
+  "layouts": { "default": "layout.json", "small": "layout-small.json" },
+  "permissions": {
+    "network": ["api.coingecko.com"],
+    "places": ["island", "dashboard", "desktop", "docks", "panel"],
+    "refreshSeconds": 300,
+    "storageKB": 16,
+    "alerts": true
+  }
+}

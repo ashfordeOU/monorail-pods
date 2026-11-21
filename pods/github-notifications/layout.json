@@ -1,0 +1,20 @@
+{
+  "type": "stack",
+  "spacing": 6,
+  "children": [
+    { "type": "row", "spacing": 8, "children": [
+      { "type": "ring", "value": "$fraction", "label": "{{count}}", "size": 34, "tint": "purple" },
+      { "type": "stack", "spacing": 1, "children": [
+        { "type": "text", "text": "GitHub", "style": "headline" },
+        { "type": "text", "text": "{{summary}}", "style": "caption" }
+      ]}
+    ]},
+    { "type": "list", "items": "$latest", "max": 4, "spacing": 3, "action": "open", "item":
+      { "type": "row", "spacing": 6, "children": [
+        { "type": "image", "symbol": "$item.symbol", "size": 11, "tint": "neutral" },
+        { "type": "text", "text": "{{item.title}}", "style": "footnote", "lines": 1 }
+      ]}
+    },
+    { "type": "button", "title": "Open Notifications", "symbol": "bell", "action": "inbox" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "type": "stack",
+  "spacing": 4,
+  "children": [
+    { "type": "row", "spacing": 6, "children": [
+      { "type": "image", "symbol": "newspaper", "tint": "red", "size": 12 },
+      { "type": "text", "text": "Headlines", "style": "caption" }
+    ]},
+    { "type": "list", "items": "$items", "max": 1, "action": "open", "item":
+      { "type": "text", "text": "{{item.title}}", "style": "headline", "lines": 3 }
+    }
+  ]
+}

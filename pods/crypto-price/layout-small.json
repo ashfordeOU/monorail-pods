@@ -1,0 +1,11 @@
+{
+  "type": "stack",
+  "spacing": 2,
+  "children": [
+    { "type": "row", "spacing": 4, "children": [
+      { "type": "image", "symbol": "bitcoinsign.circle.fill", "tint": "orange", "size": 12 },
+      { "type": "text", "text": "{{btc.change}}", "style": "caption", "tint": "$btc.tint" }
+    ]},
+    { "type": "text", "text": "{{btc.price}}", "style": "headline" }
+  ]
+}

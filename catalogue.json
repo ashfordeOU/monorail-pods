@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "updated": "2026-11-21",
+  "addons": [
+    {
+      "id": "pod.org.ashforde.pod.headlines",
+      "kind": "pod",
+      "title": "Headlines",
+      "summary": "The latest BBC News headlines, refreshed every 15 minutes. Tap one to read it.",
+      "symbol": "newspaper",
+      "author": "Ashforde",
+      "category": "Pods",
+      "podID": "org.ashforde.pod.headlines",
+      "version": "1.0.0",
+      "download": "https://raw.githubusercontent.com/ashfordeOU/monorail-pods/main/packages/headlines.monorail-pod",
+      "sha256": "3816606a5378c41db5f6b7dd2a4874c81912ef1d5b9a0219038e66fed45dad9c",
+      "url": "https://github.com/ashfordeOU/monorail-pods/tree/main/pods/headlines"
+    },
+    {
+      "id": "pod.org.ashforde.pod.crypto",
+      "kind": "pod",
+      "title": "Crypto Price",
+      "summary": "Bitcoin and Ether with the day's change and a line of recent prices. No account needed.",
+      "symbol": "bitcoinsign.circle",
+      "author": "Ashforde",
+      "category": "Pods",
+      "podID": "org.ashforde.pod.crypto",
+      "version": "1.0.0",
+      "download": "https://raw.githubusercontent.com/ashfordeOU/monorail-pods/main/packages/crypto-price.monorail-pod",
+      "sha256": "4591908bdcc14d2a4e655d597027407c870d240ff6e68431b7f6e3788cfd63e6",
+      "url": "https://github.com/ashfordeOU/monorail-pods/tree/main/pods/crypto-price"
+    },
+    {
+      "id": "pod.org.ashforde.pod.github",
+      "kind": "pod",
+      "title": "GitHub Notifications",
+      "summary": "Your unread GitHub notifications and the latest few. Your token stays in the Keychain.",
+      "symbol": "bell.badge",
+      "author": "Ashforde",
+      "category": "Pods",
+      "podID": "org.ashforde.pod.github",
+      "version": "1.0.0",
+      "download": "https://raw.githubusercontent.com/ashfordeOU/monorail-pods/main/packages/github-notifications.monorail-pod",
+      "sha256": "76a5f8f387aee6df20a4096e09b41dcbda3709901da1a711f5ea3174814dcfcd",
+      "url": "https://github.com/ashfordeOU/monorail-pods/tree/main/pods/github-notifications"
+    },
+    {
+      "id": "pod.org.ashforde.pod.word",
+      "kind": "pod",
+      "title": "World Word of the Day",
+      "summary": "A word from one of the world's languages each day. Works offline.",
+      "symbol": "globe.europe.africa",
+      "author": "Ashforde",
+      "category": "Pods",
+      "podID": "org.ashforde.pod.word",
+      "version": "1.0.0",
+      "download": "https://raw.githubusercontent.com/ashfordeOU/monorail-pods/main/packages/word-of-the-day.monorail-pod",
+      "sha256": "ff3b951b91f4be12325adc5303c795a5ff1e0c48333e95d817ca20aaad448bfb",
+      "url": "https://github.com/ashfordeOU/monorail-pods/tree/main/pods/word-of-the-day"
+    }
+  ]
+}

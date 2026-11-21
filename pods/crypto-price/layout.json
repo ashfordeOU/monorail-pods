@@ -1,0 +1,23 @@
+{
+  "type": "stack",
+  "spacing": 6,
+  "children": [
+    { "type": "row", "spacing": 6, "children": [
+      { "type": "image", "symbol": "bitcoinsign.circle.fill", "tint": "orange" },
+      { "type": "text", "text": "Bitcoin", "style": "headline" },
+      { "type": "spacer" },
+      { "type": "text", "text": "{{btc.change}}", "style": "caption", "tint": "$btc.tint" }
+    ]},
+    { "type": "text", "text": "{{btc.price}}", "style": "title" },
+    { "type": "sparkline", "values": "$btc.history", "tint": "orange", "height": 28 },
+    { "type": "divider" },
+    { "type": "row", "spacing": 6, "children": [
+      { "type": "text", "text": "Ether", "style": "body" },
+      { "type": "spacer" },
+      { "type": "text", "text": "{{eth.price}}", "style": "mono" },
+      { "type": "text", "text": "{{eth.change}}", "style": "caption", "tint": "$eth.tint" }
+    ]},
+    { "type": "text", "text": "{{message}}", "style": "caption", "visible": "$message" },
+    { "type": "button", "title": "Open CoinGecko", "symbol": "safari", "action": "open" }
+  ]
+}

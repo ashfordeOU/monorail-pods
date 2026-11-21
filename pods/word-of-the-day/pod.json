@@ -1,0 +1,18 @@
+{
+  "format": 1,
+  "id": "org.ashforde.pod.word",
+  "name": "World Word of the Day",
+  "version": "1.0.0",
+  "author": "Ashforde",
+  "description": "A word from one of the world's languages each day, with what it means. Works offline: it never connects to the internet.",
+  "icon": "icon.png",
+  "minMonorail": "1.9.8",
+  "entry": "main.js",
+  "layouts": { "default": "layout.json", "small": "layout-small.json" },
+  "permissions": {
+    "network": [],
+    "places": ["island", "lockScreen", "dashboard", "desktop", "docks", "panel"],
+    "refreshSeconds": 3600,
+    "storageKB": 4
+  }
+}

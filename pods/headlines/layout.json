@@ -1,0 +1,16 @@
+{
+  "type": "stack",
+  "spacing": 6,
+  "children": [
+    { "type": "row", "spacing": 6, "children": [
+      { "type": "image", "symbol": "newspaper", "tint": "red" },
+      { "type": "text", "text": "Headlines", "style": "headline" },
+      { "type": "spacer" },
+      { "type": "text", "text": "{{updated}}", "style": "caption" }
+    ]},
+    { "type": "text", "text": "{{message}}", "style": "footnote", "visible": "$message" },
+    { "type": "list", "items": "$items", "max": 5, "spacing": 4, "action": "open", "item":
+      { "type": "text", "text": "{{item.title}}", "style": "body", "lines": 2 }
+    }
+  ]
+}
