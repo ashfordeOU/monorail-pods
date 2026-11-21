@@ -1,7 +1,8 @@
 # Monorail Pods
 
 Pods are small add-ons for [Monorail](https://monorail.ashforde.org), the Mac app. A pod is a layout,
-a short JavaScript file and a list of permissions, packed into one signed `.monorail-pod` file.
+a short JavaScript file and a list of permissions, packed into one `.monorail-pod` file that its maker
+can sign.
 Monorail shows who made it and what it may do before it installs anything, runs it in a sandbox, and
 draws it in its own style, in the Island and on the Dashboard among other places, wherever you allow.
 
